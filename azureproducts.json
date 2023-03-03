@@ -1,0 +1,1356 @@
+[
+  {
+    "id": "ai--machine-learning",
+    "name": "AI + machine learning",
+    "skills": [
+      {
+        "id": "anomaly-detector",
+        "name": "Anomaly Detector"
+      },
+      {
+        "id": "azure-bot-services",
+        "name": "Azure Bot Services"
+      },
+      {
+        "id": "azure-cognitive-search",
+        "name": "Azure Cognitive Search"
+      },
+      {
+        "id": "azure-databricks",
+        "name": "Azure Databricks"
+      },
+      {
+        "id": "azure-machine-learning",
+        "name": "Azure Machine Learning"
+      },
+      {
+        "id": "azure-open-datasets",
+        "name": "Azure Open Datasets"
+      },
+      {
+        "id": "azure-cognitive-services",
+        "name": "Azure Cognitive Services"
+      },
+      {
+        "id": "azure-video-indexer",
+        "name": "Azure Video Indexer"
+      },
+      {
+        "id": "computer-vision",
+        "name": "Computer Vision"
+      },
+      {
+        "id": "content-moderator",
+        "name": "Content Moderator"
+      },
+      {
+        "id": "custom-vision",
+        "name": "Custom Vision"
+      },
+      {
+        "id": "data-science-virtual-machines",
+        "name": "Data Science Virtual Machines"
+      },
+      {
+        "id": "face-api",
+        "name": "Face API"
+      },
+      {
+        "id": "azure-form-recognizer",
+        "name": "Azure Form Recognizer"
+      },
+      {
+        "id": "azure-immersive-reader",
+        "name": "Azure Immersive Reader"
+      },
+      {
+        "id": "kinect-dk",
+        "name": "Kinect DK"
+      },
+      {
+        "id": "language-understanding-(luis)",
+        "name": "Language Understanding (LUIS)"
+      },
+      {
+        "id": "microsoft-genomics",
+        "name": "Microsoft Genomics"
+      },
+      {
+        "id": "personalizer",
+        "name": "Personalizer"
+      },
+      {
+        "id": "project-bonsai-preview",
+        "name": "Project Bonsai Preview"
+      },
+      {
+        "id": "qna-maker",
+        "name": "QnA Maker"
+      },
+      {
+        "id": "speaker-recognition",
+        "name": "Speaker recognition"
+      },
+      {
+        "id": "speech-to-text",
+        "name": "Speech to text"
+      },
+      {
+        "id": "speech-translation",
+        "name": "Speech translation"
+      },
+      {
+        "id": "cognitive-service-for-language",
+        "name": "Cognitive Service for Language"
+      },
+      {
+        "id": "text-to-speech",
+        "name": "Text to speech"
+      },
+      {
+        "id": "translator",
+        "name": "Translator"
+      },
+      {
+        "id": "azure-metrics-advisor",
+        "name": "Azure Metrics Advisor"
+      },
+      {
+        "id": "health-bot",
+        "name": "Health Bot"
+      },
+      {
+        "id": "azure-percept-preview",
+        "name": "Azure Percept Preview"
+      },
+      {
+        "id": "azure-applied-ai-services",
+        "name": "Azure Applied AI Services"
+      },
+      {
+        "id": "azure-openai-service",
+        "name": "Azure OpenAI Service"
+      }
+    ]
+  },
+  {
+    "id": "analytics",
+    "name": "Analytics",
+    "skills": [
+      {
+        "id": "azure-analysis-services",
+        "name": "Azure Analysis Services"
+      },
+      {
+        "id": "azure-data-explorer",
+        "name": "Azure Data Explorer"
+      },
+      {
+        "id": "azure-data-factory",
+        "name": "Azure Data Factory"
+      },
+      {
+        "id": "azure-data-lake-storage",
+        "name": "Azure Data Lake Storage"
+      },
+      {
+        "id": "azure-data-lake-storage-gen1",
+        "name": "Azure Data Lake Storage Gen1"
+      },
+      {
+        "id": "azure-data-share",
+        "name": "Azure Data Share"
+      },
+      {
+        "id": "azure-databricks",
+        "name": "Azure Databricks"
+      },
+      {
+        "id": "azure-stream-analytics",
+        "name": "Azure Stream Analytics"
+      },
+      {
+        "id": "azure-synapse-analytics",
+        "name": "Azure Synapse Analytics"
+      },
+      {
+        "id": "data-catalog",
+        "name": "Data Catalog"
+      },
+      {
+        "id": "data-lake-analytics",
+        "name": "Data Lake Analytics"
+      },
+      {
+        "id": "event-hubs",
+        "name": "Event Hubs"
+      },
+      {
+        "id": "hdinsight",
+        "name": "HDInsight"
+      },
+      {
+        "id": "power-bi-embedded",
+        "name": "Power BI Embedded"
+      },
+      {
+        "id": "r-server-for-hdinsight",
+        "name": "R Server for HDInsight"
+      },
+      {
+        "id": "microsoft-purview",
+        "name": "Microsoft Purview"
+      },
+      {
+        "id": "microsoft-graph-data-connect-preview",
+        "name": "Microsoft Graph Data Connect Preview"
+      },
+      {
+        "id": "azure-chaos-studio-preview",
+        "name": "Azure Chaos Studio Preview"
+      },
+      {
+        "id": "azure-operator-insights-preview",
+        "name": "Azure Operator Insights Preview"
+      },
+      {
+        "id": "azure-operator-service-manager-preview",
+        "name": "Azure Operator Service Manager Preview"
+      }
+    ]
+  },
+  {
+    "id": "compute",
+    "name": "Compute",
+    "skills": [
+      {
+        "id": "app-service",
+        "name": "App Service"
+      },
+      {
+        "id": "azure-cyclecloud",
+        "name": "Azure CycleCloud"
+      },
+      {
+        "id": "azure-quantum",
+        "name": "Azure Quantum"
+      },
+      {
+        "id": "azure-spot-virtual-machines",
+        "name": "Azure Spot Virtual Machines"
+      },
+      {
+        "id": "azure-spring-apps",
+        "name": "Azure Spring Apps"
+      },
+      {
+        "id": "azure-vmware-solution",
+        "name": "Azure VMware Solution"
+      },
+      {
+        "id": "batch",
+        "name": "Batch"
+      },
+      {
+        "id": "cloud-services",
+        "name": "Cloud Services"
+      },
+      {
+        "id": "linux-virtual-machines",
+        "name": "Linux Virtual Machines"
+      },
+      {
+        "id": "sql-server-on-azure-virtual-machines",
+        "name": "SQL Server on Azure Virtual Machines"
+      },
+      {
+        "id": "static-web-apps",
+        "name": "Static Web Apps"
+      },
+      {
+        "id": "virtual-machine-scale-sets",
+        "name": "Virtual Machine Scale Sets"
+      },
+      {
+        "id": "virtual-machines",
+        "name": "Virtual Machines"
+      },
+      {
+        "id": "azure-virtual-desktop",
+        "name": "Azure Virtual Desktop"
+      },
+      {
+        "id": "windows-virtual-machines",
+        "name": "Windows Virtual Machines"
+      },
+      {
+        "id": "azure-dedicated-host",
+        "name": "Azure Dedicated Host"
+      },
+      {
+        "id": "azure-vm-image-builder",
+        "name": "Azure VM Image Builder"
+      },
+      {
+        "id": "azure-kubernetes-service-(aks)",
+        "name": "Azure Kubernetes Service (AKS)"
+      },
+      {
+        "id": "azure-functions",
+        "name": "Azure Functions"
+      },
+      {
+        "id": "azure-container-instances",
+        "name": "Azure Container Instances"
+      },
+      {
+        "id": "azure-service-fabric",
+        "name": "Azure Service Fabric"
+      }
+    ]
+  },
+  {
+    "id": "containers",
+    "name": "Containers",
+    "skills": [
+      {
+        "id": "app-configuration",
+        "name": "App Configuration"
+      },
+      {
+        "id": "azure-kubernetes-service-(aks)",
+        "name": "Azure Kubernetes Service (AKS)"
+      },
+      {
+        "id": "azure-kubernetes-fleet-manager-preview",
+        "name": "Azure Kubernetes Fleet Manager Preview"
+      },
+      {
+        "id": "azure-red-hat-openshift",
+        "name": "Azure Red Hat OpenShift"
+      },
+      {
+        "id": "azure-container-apps",
+        "name": "Azure Container Apps"
+      },
+      {
+        "id": "azure-functions",
+        "name": "Azure Functions"
+      },
+      {
+        "id": "web-app-for-containers",
+        "name": "Web App for Containers"
+      },
+      {
+        "id": "azure-container-instances",
+        "name": "Azure Container Instances"
+      },
+      {
+        "id": "azure-service-fabric",
+        "name": "Azure Service Fabric"
+      },
+      {
+        "id": "azure-container-registry",
+        "name": "Azure Container Registry"
+      }
+    ]
+  },
+  {
+    "id": "databases",
+    "name": "Databases",
+    "skills": [
+      {
+        "id": "azure-cache-for-redis",
+        "name": "Azure Cache for Redis"
+      },
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "azure-data-factory",
+        "name": "Azure Data Factory"
+      },
+      {
+        "id": "azure-database-for-mariadb",
+        "name": "Azure Database for MariaDB"
+      },
+      {
+        "id": "azure-database-for-mysql",
+        "name": "Azure Database for MySQL"
+      },
+      {
+        "id": "azure-database-for-postgresql",
+        "name": "Azure Database for PostgreSQL"
+      },
+      {
+        "id": "azure-database-migration-service",
+        "name": "Azure Database Migration Service"
+      },
+      {
+        "id": "azure-sql",
+        "name": "Azure SQL"
+      },
+      {
+        "id": "azure-sql-database",
+        "name": "Azure SQL Database"
+      },
+      {
+        "id": "azure-sql-edge",
+        "name": "Azure SQL Edge"
+      },
+      {
+        "id": "azure-sql-managed-instance",
+        "name": "Azure SQL Managed Instance"
+      },
+      {
+        "id": "sql-server-on-azure-virtual-machines",
+        "name": "SQL Server on Azure Virtual Machines"
+      },
+      {
+        "id": "table-storage",
+        "name": "Table Storage"
+      },
+      {
+        "id": "azure-managed-instance-for-apache-cassandra",
+        "name": "Azure Managed Instance for Apache Cassandra"
+      },
+      {
+        "id": "azure-confidential-ledger",
+        "name": "Azure confidential ledger"
+      }
+    ]
+  },
+  {
+    "id": "developer-tools",
+    "name": "Developer tools",
+    "skills": [
+      {
+        "id": "app-configuration",
+        "name": "App Configuration"
+      },
+      {
+        "id": "azure-devops",
+        "name": "Azure DevOps"
+      },
+      {
+        "id": "azure-devtest-labs",
+        "name": "Azure DevTest Labs"
+      },
+      {
+        "id": "azure-pipelines",
+        "name": "Azure Pipelines"
+      },
+      {
+        "id": "sdks",
+        "name": "SDKs"
+      },
+      {
+        "id": "visual-studio",
+        "name": "Visual Studio"
+      },
+      {
+        "id": "visual-studio-code",
+        "name": "Visual Studio Code"
+      },
+      {
+        "id": "azure-load-testing",
+        "name": "Azure Load Testing"
+      },
+      {
+        "id": "microsoft-dev-box-preview",
+        "name": "Microsoft Dev Box Preview"
+      },
+      {
+        "id": "azure-deployment-environments-preview",
+        "name": "Azure Deployment Environments Preview"
+      }
+    ]
+  },
+  {
+    "id": "devops",
+    "name": "DevOps",
+    "skills": [
+      {
+        "id": "azure-artifacts",
+        "name": "Azure Artifacts"
+      },
+      {
+        "id": "azure-boards",
+        "name": "Azure Boards"
+      },
+      {
+        "id": "azure-devops",
+        "name": "Azure DevOps"
+      },
+      {
+        "id": "azure-devtest-labs",
+        "name": "Azure DevTest Labs"
+      },
+      {
+        "id": "azure-monitor",
+        "name": "Azure Monitor"
+      },
+      {
+        "id": "azure-pipelines",
+        "name": "Azure Pipelines"
+      },
+      {
+        "id": "azure-repos",
+        "name": "Azure Repos"
+      },
+      {
+        "id": "azure-test-plans",
+        "name": "Azure Test Plans"
+      },
+      {
+        "id": "devops-tool-integrations",
+        "name": "DevOps tool integrations"
+      },
+      {
+        "id": "azure-load-testing",
+        "name": "Azure Load Testing"
+      },
+      {
+        "id": "azure-managed-grafana",
+        "name": "Azure Managed Grafana"
+      },
+      {
+        "id": "microsoft-dev-box-preview",
+        "name": "Microsoft Dev Box Preview"
+      },
+      {
+        "id": "azure-deployment-environments-preview",
+        "name": "Azure Deployment Environments Preview"
+      }
+    ]
+  },
+  {
+    "id": "hybrid--multicloud",
+    "name": "Hybrid + multicloud",
+    "skills": [
+      {
+        "id": "azure-active-directory-(azure-ad)",
+        "name": "Azure Active Directory (Azure AD)"
+      },
+      {
+        "id": "azure-arc",
+        "name": "Azure Arc"
+      },
+      {
+        "id": "azure-database-for-postgresql",
+        "name": "Azure Database for PostgreSQL"
+      },
+      {
+        "id": "azure-devops",
+        "name": "Azure DevOps"
+      },
+      {
+        "id": "azure-expressroute",
+        "name": "Azure ExpressRoute"
+      },
+      {
+        "id": "azure-iot-edge",
+        "name": "Azure IoT Edge"
+      },
+      {
+        "id": "microsoft-sentinel",
+        "name": "Microsoft Sentinel"
+      },
+      {
+        "id": "azure-sql-database",
+        "name": "Azure SQL Database"
+      },
+      {
+        "id": "azure-sql-edge",
+        "name": "Azure SQL Edge"
+      },
+      {
+        "id": "azure-stack",
+        "name": "Azure Stack"
+      },
+      {
+        "id": "microsoft-defender-for-cloud",
+        "name": "Microsoft Defender for Cloud"
+      },
+      {
+        "id": "azure-stack-hci",
+        "name": "Azure Stack HCI"
+      },
+      {
+        "id": "azure-stack-hub",
+        "name": "Azure Stack Hub"
+      },
+      {
+        "id": "azure-stack-edge",
+        "name": "Azure Stack Edge"
+      },
+      {
+        "id": "azure-modular-datacenter",
+        "name": "Azure Modular Datacenter"
+      },
+      {
+        "id": "azure-kubernetes-service-edge-essentials",
+        "name": "Azure Kubernetes Service Edge Essentials"
+      },
+      {
+        "id": "azure-operator-insights-preview",
+        "name": "Azure Operator Insights Preview"
+      },
+      {
+        "id": "azure-operator-service-manager-preview",
+        "name": "Azure Operator Service Manager Preview"
+      },
+      {
+        "id": "azure-operator-nexus-preview",
+        "name": "Azure Operator Nexus Preview"
+      }
+    ]
+  },
+  {
+    "id": "identity",
+    "name": "Identity",
+    "skills": [
+      {
+        "id": "azure-active-directory-(azure-ad)",
+        "name": "Azure Active Directory (Azure AD)"
+      },
+      {
+        "id": "azure-active-directory-domain-services",
+        "name": "Azure Active Directory Domain Services"
+      },
+      {
+        "id": "azure-information-protection",
+        "name": "Azure Information Protection"
+      },
+      {
+        "id": "azure-active-directory-external-identities",
+        "name": "Azure Active Directory External Identities"
+      }
+    ]
+  },
+  {
+    "id": "integration",
+    "name": "Integration",
+    "skills": [
+      {
+        "id": "api-management",
+        "name": "API Management"
+      },
+      {
+        "id": "azure-health-data-services",
+        "name": "Azure Health Data Services"
+      },
+      {
+        "id": "event-grid",
+        "name": "Event Grid"
+      },
+      {
+        "id": "logic-apps",
+        "name": "Logic Apps"
+      },
+      {
+        "id": "service-bus",
+        "name": "Service Bus"
+      },
+      {
+        "id": "azure-web-pubsub",
+        "name": "Azure Web PubSub"
+      },
+      {
+        "id": "microsoft-energy-data-services-preview",
+        "name": "Microsoft Energy Data Services Preview"
+      }
+    ]
+  },
+  {
+    "id": "internet-of-things",
+    "name": "Internet of Things",
+    "skills": [
+      {
+        "id": "api-management",
+        "name": "API Management"
+      },
+      {
+        "id": "azure-cosmos-db",
+        "name": "Azure Cosmos DB"
+      },
+      {
+        "id": "azure-digital-twins",
+        "name": "Azure Digital Twins"
+      },
+      {
+        "id": "azure-iot-central",
+        "name": "Azure IoT Central"
+      },
+      {
+        "id": "azure-iot-edge",
+        "name": "Azure IoT Edge"
+      },
+      {
+        "id": "azure-iot-hub",
+        "name": "Azure IoT Hub"
+      },
+      {
+        "id": "azure-machine-learning",
+        "name": "Azure Machine Learning"
+      },
+      {
+        "id": "azure-maps",
+        "name": "Azure Maps"
+      },
+      {
+        "id": "azure-rtos",
+        "name": "Azure RTOS"
+      },
+      {
+        "id": "azure-sphere",
+        "name": "Azure Sphere"
+      },
+      {
+        "id": "azure-sql-edge",
+        "name": "Azure SQL Edge"
+      },
+      {
+        "id": "azure-stream-analytics",
+        "name": "Azure Stream Analytics"
+      },
+      {
+        "id": "azure-time-series-insights",
+        "name": "Azure Time Series Insights"
+      },
+      {
+        "id": "event-grid",
+        "name": "Event Grid"
+      },
+      {
+        "id": "kinect-dk",
+        "name": "Kinect DK"
+      },
+      {
+        "id": "logic-apps",
+        "name": "Logic Apps"
+      },
+      {
+        "id": "notification-hubs",
+        "name": "Notification Hubs"
+      },
+      {
+        "id": "windows-10-iot-core-services",
+        "name": "Windows 10 IoT Core Services"
+      },
+      {
+        "id": "microsoft-defender-for-iot",
+        "name": "Microsoft Defender for IoT"
+      },
+      {
+        "id": "azure-percept-preview",
+        "name": "Azure Percept Preview"
+      },
+      {
+        "id": "windows-for-iot",
+        "name": "Windows for IoT"
+      },
+      {
+        "id": "azure-functions",
+        "name": "Azure Functions"
+      }
+    ]
+  },
+  {
+    "id": "management-and-governance",
+    "name": "Management and governance",
+    "skills": [
+      {
+        "id": "automation",
+        "name": "Automation"
+      },
+      {
+        "id": "azure-advisor",
+        "name": "Azure Advisor"
+      },
+      {
+        "id": "defender-external-attack-surface-management",
+        "name": "Defender External Attack Surface Management"
+      },
+      {
+        "id": "azure-backup",
+        "name": "Azure Backup"
+      },
+      {
+        "id": "azure-blueprints-preview",
+        "name": "Azure Blueprints Preview"
+      },
+      {
+        "id": "azure-lighthouse",
+        "name": "Azure Lighthouse"
+      },
+      {
+        "id": "azure-managed-applications",
+        "name": "Azure Managed Applications"
+      },
+      {
+        "id": "azure-migrate",
+        "name": "Azure Migrate"
+      },
+      {
+        "id": "azure-mobile-app",
+        "name": "Azure mobile app"
+      },
+      {
+        "id": "azure-monitor",
+        "name": "Azure Monitor"
+      },
+      {
+        "id": "azure-policy",
+        "name": "Azure Policy"
+      },
+      {
+        "id": "azure-resource-manager",
+        "name": "Azure Resource Manager"
+      },
+      {
+        "id": "azure-resource-manager-templates",
+        "name": "Azure Resource Manager templates"
+      },
+      {
+        "id": "azure-service-health",
+        "name": "Azure Service Health"
+      },
+      {
+        "id": "azure-site-recovery",
+        "name": "Azure Site Recovery"
+      },
+      {
+        "id": "cloud-shell",
+        "name": "Cloud Shell"
+      },
+      {
+        "id": "microsoft-cost-management",
+        "name": "Microsoft Cost Management"
+      },
+      {
+        "id": "microsoft-azure-portal",
+        "name": "Microsoft Azure portal"
+      },
+      {
+        "id": "network-watcher",
+        "name": "Network Watcher"
+      },
+      {
+        "id": "traffic-manager",
+        "name": "Traffic Manager"
+      },
+      {
+        "id": "azure-automanage",
+        "name": "Azure Automanage"
+      },
+      {
+        "id": "azure-resource-mover",
+        "name": "Azure Resource Mover"
+      },
+      {
+        "id": "microsoft-purview",
+        "name": "Microsoft Purview"
+      },
+      {
+        "id": "azure-chaos-studio-preview",
+        "name": "Azure Chaos Studio Preview"
+      },
+      {
+        "id": "azure-managed-grafana",
+        "name": "Azure Managed Grafana"
+      },
+      {
+        "id": "update-management-center-preview",
+        "name": "Update management center Preview"
+      }
+    ]
+  },
+  {
+    "id": "media",
+    "name": "Media",
+    "skills": [
+      {
+        "id": "azure-media-player",
+        "name": "Azure Media Player"
+      },
+      {
+        "id": "content-delivery-network",
+        "name": "Content Delivery Network"
+      },
+      {
+        "id": "content-protection",
+        "name": "Content Protection"
+      },
+      {
+        "id": "encoding",
+        "name": "Encoding"
+      },
+      {
+        "id": "live-and-on-demand-streaming",
+        "name": "Live and On-Demand Streaming"
+      },
+      {
+        "id": "media-services",
+        "name": "Media Services"
+      }
+    ]
+  },
+  {
+    "id": "migration",
+    "name": "Migration",
+    "skills": [
+      {
+        "id": "azure-database-migration-service",
+        "name": "Azure Database Migration Service"
+      },
+      {
+        "id": "azure-migrate",
+        "name": "Azure Migrate"
+      },
+      {
+        "id": "azure-site-recovery",
+        "name": "Azure Site Recovery"
+      },
+      {
+        "id": "microsoft-cost-management",
+        "name": "Microsoft Cost Management"
+      },
+      {
+        "id": "azure-data-box",
+        "name": "Azure Data Box"
+      }
+    ]
+  },
+  {
+    "id": "mixed-reality",
+    "name": "Mixed reality",
+    "skills": [
+      {
+        "id": "azure-digital-twins",
+        "name": "Azure Digital Twins"
+      },
+      {
+        "id": "kinect-dk",
+        "name": "Kinect DK"
+      },
+      {
+        "id": "remote-rendering",
+        "name": "Remote Rendering"
+      },
+      {
+        "id": "spatial-anchors",
+        "name": "Spatial Anchors"
+      },
+      {
+        "id": "object-anchors-preview",
+        "name": "Object Anchors Preview"
+      }
+    ]
+  },
+  {
+    "id": "mobile",
+    "name": "Mobile",
+    "skills": [
+      {
+        "id": "api-management",
+        "name": "API Management"
+      },
+      {
+        "id": "app-configuration",
+        "name": "App Configuration"
+      },
+      {
+        "id": "app-service",
+        "name": "App Service"
+      },
+      {
+        "id": "azure-cognitive-search",
+        "name": "Azure Cognitive Search"
+      },
+      {
+        "id": "azure-maps",
+        "name": "Azure Maps"
+      },
+      {
+        "id": "azure-cognitive-services",
+        "name": "Azure Cognitive Services"
+      },
+      {
+        "id": "notification-hubs",
+        "name": "Notification Hubs"
+      },
+      {
+        "id": "spatial-anchors",
+        "name": "Spatial Anchors"
+      },
+      {
+        "id": "app-center",
+        "name": "App Center"
+      },
+      {
+        "id": "xamarin",
+        "name": "Xamarin"
+      },
+      {
+        "id": "azure-communication-services",
+        "name": "Azure Communication Services"
+      }
+    ]
+  },
+  {
+    "id": "networking",
+    "name": "Networking",
+    "skills": [
+      {
+        "id": "application-gateway",
+        "name": "Application Gateway"
+      },
+      {
+        "id": "azure-bastion",
+        "name": "Azure Bastion"
+      },
+      {
+        "id": "azure-ddos-protection",
+        "name": "Azure DDoS Protection"
+      },
+      {
+        "id": "azure-dns",
+        "name": "Azure DNS"
+      },
+      {
+        "id": "azure-expressroute",
+        "name": "Azure ExpressRoute"
+      },
+      {
+        "id": "azure-firewall",
+        "name": "Azure Firewall"
+      },
+      {
+        "id": "load-balancer",
+        "name": "Load Balancer"
+      },
+      {
+        "id": "azure-firewall-manager",
+        "name": "Azure Firewall Manager"
+      },
+      {
+        "id": "azure-front-door",
+        "name": "Azure Front Door"
+      },
+      {
+        "id": "azure-internet-analyzer-preview",
+        "name": "Azure Internet Analyzer Preview"
+      },
+      {
+        "id": "azure-private-link",
+        "name": "Azure Private Link"
+      },
+      {
+        "id": "content-delivery-network",
+        "name": "Content Delivery Network"
+      },
+      {
+        "id": "network-watcher",
+        "name": "Network Watcher"
+      },
+      {
+        "id": "traffic-manager",
+        "name": "Traffic Manager"
+      },
+      {
+        "id": "virtual-network",
+        "name": "Virtual Network"
+      },
+      {
+        "id": "azure-virtual-network-manager-preview",
+        "name": "Azure Virtual Network Manager Preview"
+      },
+      {
+        "id": "virtual-wan",
+        "name": "Virtual WAN"
+      },
+      {
+        "id": "vpn-gateway",
+        "name": "VPN Gateway"
+      },
+      {
+        "id": "web-application-firewall",
+        "name": "Web Application Firewall"
+      },
+      {
+        "id": "azure-orbital-ground-station",
+        "name": "Azure Orbital Ground Station"
+      },
+      {
+        "id": "azure-route-server",
+        "name": "Azure Route Server"
+      },
+      {
+        "id": "azure-network-function-manager",
+        "name": "Azure Network Function Manager"
+      },
+      {
+        "id": "azure-private-5g-core",
+        "name": "Azure Private 5G Core"
+      },
+      {
+        "id": "azure-communications-gateway",
+        "name": "Azure Communications Gateway"
+      }
+    ]
+  },
+  {
+    "id": "security",
+    "name": "Security",
+    "skills": [
+      {
+        "id": "app-configuration",
+        "name": "App Configuration"
+      },
+      {
+        "id": "application-gateway",
+        "name": "Application Gateway"
+      },
+      {
+        "id": "azure-active-directory-(azure-ad)",
+        "name": "Azure Active Directory (Azure AD)"
+      },
+      {
+        "id": "azure-active-directory-domain-services",
+        "name": "Azure Active Directory Domain Services"
+      },
+      {
+        "id": "microsoft-defender-for-cloud",
+        "name": "Microsoft Defender for Cloud"
+      },
+      {
+        "id": "defender-external-attack-surface-management",
+        "name": "Defender External Attack Surface Management"
+      },
+      {
+        "id": "azure-bastion",
+        "name": "Azure Bastion"
+      },
+      {
+        "id": "azure-ddos-protection",
+        "name": "Azure DDoS Protection"
+      },
+      {
+        "id": "azure-dedicated-hsm",
+        "name": "Azure Dedicated HSM"
+      },
+      {
+        "id": "azure-firewall",
+        "name": "Azure Firewall"
+      },
+      {
+        "id": "azure-firewall-manager",
+        "name": "Azure Firewall Manager"
+      },
+      {
+        "id": "azure-front-door",
+        "name": "Azure Front Door"
+      },
+      {
+        "id": "azure-information-protection",
+        "name": "Azure Information Protection"
+      },
+      {
+        "id": "microsoft-sentinel",
+        "name": "Microsoft Sentinel"
+      },
+      {
+        "id": "key-vault",
+        "name": "Key Vault"
+      },
+      {
+        "id": "vpn-gateway",
+        "name": "VPN Gateway"
+      },
+      {
+        "id": "web-application-firewall",
+        "name": "Web Application Firewall"
+      },
+      {
+        "id": "microsoft-defender-for-iot",
+        "name": "Microsoft Defender for IoT"
+      },
+      {
+        "id": "microsoft-azure-attestation",
+        "name": "Microsoft Azure Attestation"
+      },
+      {
+        "id": "azure-confidential-ledger",
+        "name": "Azure confidential ledger"
+      }
+    ]
+  },
+  {
+    "id": "storage",
+    "name": "Storage",
+    "skills": [
+      {
+        "id": "archive-storage",
+        "name": "Archive Storage"
+      },
+      {
+        "id": "avere-vfxt-for-azure",
+        "name": "Avere vFXT for Azure"
+      },
+      {
+        "id": "azure-backup",
+        "name": "Azure Backup"
+      },
+      {
+        "id": "azure-data-lake-storage",
+        "name": "Azure Data Lake Storage"
+      },
+      {
+        "id": "azure-data-lake-storage-gen1",
+        "name": "Azure Data Lake Storage Gen1"
+      },
+      {
+        "id": "azure-data-share",
+        "name": "Azure Data Share"
+      },
+      {
+        "id": "azure-files",
+        "name": "Azure Files"
+      },
+      {
+        "id": "azure-hpc-cache",
+        "name": "Azure HPC Cache"
+      },
+      {
+        "id": "azure-netapp-files",
+        "name": "Azure NetApp Files"
+      },
+      {
+        "id": "azure-blob-storage",
+        "name": "Azure Blob Storage"
+      },
+      {
+        "id": "azure-data-box",
+        "name": "Azure Data Box"
+      },
+      {
+        "id": "azure-disk-storage",
+        "name": "Azure Disk Storage"
+      },
+      {
+        "id": "queue-storage",
+        "name": "Queue Storage"
+      },
+      {
+        "id": "storage-accounts",
+        "name": "Storage Accounts"
+      },
+      {
+        "id": "storage-explorer",
+        "name": "Storage Explorer"
+      },
+      {
+        "id": "storsimple",
+        "name": "StorSimple"
+      },
+      {
+        "id": "azure-confidential-ledger",
+        "name": "Azure confidential ledger"
+      },
+      {
+        "id": "azure-elastic-san-preview",
+        "name": "Azure Elastic SAN Preview"
+      },
+      {
+        "id": "azure-managed-lustre-preview",
+        "name": "Azure Managed Lustre Preview"
+      }
+    ]
+  },
+  {
+    "id": "virtual-desktop-infrastructure",
+    "name": "Virtual desktop infrastructure",
+    "skills": [
+      {
+        "id": "azure-lab-services",
+        "name": "Azure Lab Services"
+      },
+      {
+        "id": "azure-virtual-desktop",
+        "name": "Azure Virtual Desktop"
+      },
+      {
+        "id": "vmware-horizon-cloud-on-microsoft-azure",
+        "name": "VMware Horizon Cloud on Microsoft Azure"
+      },
+      {
+        "id": "citrix-virtual-apps-and-desktops-for-azure",
+        "name": "Citrix Virtual Apps and Desktops for Azure"
+      },
+      {
+        "id": "microsoft-dev-box-preview",
+        "name": "Microsoft Dev Box Preview"
+      }
+    ]
+  },
+  {
+    "id": "web",
+    "name": "Web",
+    "skills": [
+      {
+        "id": "api-management",
+        "name": "API Management"
+      },
+      {
+        "id": "app-configuration",
+        "name": "App Configuration"
+      },
+      {
+        "id": "app-service",
+        "name": "App Service"
+      },
+      {
+        "id": "azure-cognitive-search",
+        "name": "Azure Cognitive Search"
+      },
+      {
+        "id": "azure-maps",
+        "name": "Azure Maps"
+      },
+      {
+        "id": "azure-signalr-service",
+        "name": "Azure SignalR Service"
+      },
+      {
+        "id": "content-delivery-network",
+        "name": "Content Delivery Network"
+      },
+      {
+        "id": "notification-hubs",
+        "name": "Notification Hubs"
+      },
+      {
+        "id": "static-web-apps",
+        "name": "Static Web Apps"
+      },
+      {
+        "id": "azure-communication-services",
+        "name": "Azure Communication Services"
+      },
+      {
+        "id": "azure-web-pubsub",
+        "name": "Azure Web PubSub"
+      },
+      {
+        "id": "azure-fluid-relay",
+        "name": "Azure Fluid Relay"
+      },
+      {
+        "id": "web-app-for-containers",
+        "name": "Web App for Containers"
+      }
+    ]
+  }
+]
