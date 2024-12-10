@@ -16,6 +16,30 @@ namespace AzureProductExtractor.Extractors
 
         AzureServicesExport _export = new AzureServicesExport();
 
+        private string NormalizeName(string name)
+        {
+            var normalizeName = name.Trim();
+            normalizeName = normalizeName.Replace("&amp;", "and");
+            normalizeName = normalizeName.Replace("™", "");
+            normalizeName = normalizeName.Replace("®", "");
+
+            return normalizeName;
+        }
+
+        private string NormalizeNameToId(string name)
+        {
+            var normalizeName = name.ToLower();
+            normalizeName = normalizeName.Trim();
+            normalizeName = normalizeName.Replace("&amp;", "and");
+            normalizeName = normalizeName.Replace("™", "");
+            normalizeName = normalizeName.Replace("®", "");
+            normalizeName = normalizeName.Replace(" - ", "-");
+            normalizeName = normalizeName.Replace(" + ", "-");
+            normalizeName = normalizeName.Replace(" ", "-");
+
+            return normalizeName;
+        }
+
         public void ExtractFromExport(FileInfo exportFile)
         {
             _export.ExportDate = DateTime.Now;
@@ -32,8 +56,8 @@ namespace AzureProductExtractor.Extractors
 
                 _export.Categories.Add(new Category()
                 {
-                    Id = name.ToLower().Replace(" ", "-").Replace("+", ""),
-                    Name = name,
+                    Id = NormalizeNameToId(name),
+                    Name = NormalizeName(name),
                     Services = new List<AzureService>()
                 });
             }
@@ -42,7 +66,9 @@ namespace AzureProductExtractor.Extractors
 
             foreach (HtmlNode productNode in productNodes)
             {
-                var name = productNode.GetAttributeValue("data-category", "not-found");
+                var categoryName = productNode.GetAttributeValue("data-category", "not-found");
+                categoryName = NormalizeName(categoryName);
+
                 var productNameNode = productNode.SelectSingleNode(XPATH_PROCUCTNAME);
 
                 if (productNameNode is not null)
@@ -50,11 +76,11 @@ namespace AzureProductExtractor.Extractors
                     AnsiConsole.MarkupLine("[yellow]Processing service [[{0}]][/]", productNameNode.InnerText);
                     var service = new AzureService()
                     {
-                        Id = productNameNode.InnerText.ToLower().Replace(" ", "-").Replace("+", ""),
-                        Name = productNameNode.InnerText
+                        Id = NormalizeNameToId(productNameNode.InnerText),
+                        Name = NormalizeName(productNameNode.InnerText)
                     };
 
-                    var cat = _export.Categories.FirstOrDefault(c => c.Name.Equals(name));
+                    var cat = _export.Categories.FirstOrDefault(c => c.Name.Equals(categoryName));
                     cat.Services.Add(service);
                 }
             }
