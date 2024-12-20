@@ -5,14 +5,14 @@ using System.Text.Json;
 
 namespace AzureProductExtractor.Extractors
 {
-
-    /// <summary>
-    /// Tools: http://xpather.com/
-    /// </summary>
-    internal class AzurePortalExtractor
+    internal class AzureUpdatesExtractor
     {
-        private static string XPATH_CATEGORIES = "//li[contains(@class, 'fxs-sidebar-item-category')]";
-        private static string XPATH_PROCUCTS = "//li[contains(@class, 'fxs-sidebar-item')]";
+        // //li/div[@class='product-filters-parent']/div[@class='product-filters-header']/div[@class='ocr-input ocr-input--type-checkbox d-flex product_parent_option']/label[@class='ocr-input__label azure_dopdown_parent_label']/text()
+
+        private static string XPATH_CATEGORIES = ".//div[@class='product-filters-parent']";
+        private static string XPATH_CATEGORy_NAME = "./div[@class='product-filters-header']/div[@class='ocr-input ocr-input--type-checkbox d-flex product_parent_option']/label[@class='ocr-input__label azure_dopdown_parent_label']/text()";
+
+        private static string XPATH_PROCUCTS = "./div[@class='product-filters-children']/div[@class='ocr-input ocr-input--type-checkbox d-flex align-items-start']/label[@class='ocr-input__label azure_dopdown_label'][1]/text()";
         private static string XPATH_PROCUCTNAME = ".//div[contains(@class, 'fxs-sidebar-label-name')]";
 
         AzureServicesExport _export = new AzureServicesExport();
@@ -41,49 +41,46 @@ namespace AzureProductExtractor.Extractors
             return normalizeName;
         }
 
-        public void ExtractFromExport(FileInfo exportFile)
+        public async Task ExtractFromExport(FileInfo exportFile)
         {
             _export.ExportDate = DateTime.Now;
             _export.ExportSource = "Azure Portal dump";
 
             HtmlDocument htmlDoc = new HtmlDocument();
             htmlDoc.LoadHtml(File.ReadAllText(exportFile.FullName));
+
             var categoryList = htmlDoc.DocumentNode.SelectNodes(XPATH_CATEGORIES);
 
-            foreach (var category in categoryList)
+            foreach (var categoryNode in categoryList)
             {
-                var name = category.GetAttributeValue("data-category", "not-found");
+                var name = categoryNode.SelectSingleNode(XPATH_CATEGORy_NAME).InnerText;
                 AnsiConsole.MarkupLine("[blue]Processing category [[{0}]][/]", name);
 
-                _export.Categories.Add(new Category()
+                var cat = new Category()
                 {
                     Id = NormalizeNameToId(name),
                     Name = NormalizeName(name),
                     Services = new List<AzureService>()
-                });
-            }
+                };
 
-            var productNodes = htmlDoc.DocumentNode.SelectNodes(XPATH_PROCUCTS);
+                var productNodes = categoryNode.SelectNodes(XPATH_PROCUCTS);
 
-            foreach (HtmlNode productNode in productNodes)
-            {
-                var categoryName = productNode.GetAttributeValue("data-category", "not-found");
-                categoryName = NormalizeName(categoryName);
-
-                var productNameNode = productNode.SelectSingleNode(XPATH_PROCUCTNAME);
-
-                if (productNameNode is not null)
+                foreach (HtmlNode productNode in productNodes)
                 {
-                    AnsiConsole.MarkupLine("[yellow]Processing service [[{0}]][/]", productNameNode.InnerText);
+                    var categoryName = productNode.InnerText;
+                    categoryName = NormalizeName(categoryName);
+
+                    AnsiConsole.MarkupLine("[yellow]Processing service [[{0}]][/]", categoryName);
                     var service = new AzureService()
                     {
-                        Id = NormalizeNameToId(productNameNode.InnerText),
-                        Name = NormalizeName(productNameNode.InnerText)
+                        Id = NormalizeNameToId(categoryName),
+                        Name = NormalizeName(categoryName)
                     };
 
-                    var cat = _export.Categories.FirstOrDefault(c => c.Name.Equals(categoryName));
                     cat.Services.Add(service);
                 }
+
+                _export.Categories.Add(cat);
             }
 
             string jsonString = JsonSerializer.Serialize(_export, options: new JsonSerializerOptions() { Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping, WriteIndented = true });

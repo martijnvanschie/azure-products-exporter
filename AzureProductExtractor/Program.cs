@@ -10,7 +10,7 @@ AnsiConsole.Write(
     .Centered()
     .Color(Color.Yellow));
 
-AzurePortalExtractor extractor = new AzurePortalExtractor();
-extractor.ExtractFromExport(new FileInfo("azure-portal-export.html"));
+AzureUpdatesExtractor extractor = new AzureUpdatesExtractor();
+await extractor.ExtractFromExport(new FileInfo("azure-updates-export.html"));
 
 Environment.Exit(0);
